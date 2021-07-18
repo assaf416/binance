@@ -5,11 +5,11 @@ require 'binance/version'
 Gem::Specification.new do |spec|
   spec.name          = 'binance'
   spec.version       = Binance::VERSION
-  spec.authors       = ['Charles Ray Shisler III']
-  spec.email         = ['charles@cray.io']
+  spec.authors       = ['Assaf Goldstein']
+  spec.email         = ['assaf.goldstein@gmail.com']
 
   spec.summary       = 'API Wrapper for the Binance cryptocurrency exchange.'
-  spec.homepage      = 'https://github.com/craysiii/binance'
+  spec.homepage      = 'https://github.com/assaf416/binance'
   spec.license       = 'MIT'
 
   spec.files         = Dir['bin/*'] +

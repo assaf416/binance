@@ -16,10 +16,15 @@ module Binance
         book_ticker:       'v3/ticker/bookTicker',
 
         # Account API Endpoints
-        order:            'v3/order',
-        test_order:       'v3/order/test',
-        open_orders:      'v3/openOrders',
-        all_orders:       'v3/allOrders',
+        order:               'v3/order',
+        oco_order:           'v3/order/oco',
+        test_order:          'v3/order/test',
+        open_orders:         'v3/openOrders',
+        all_orders:           'v3/allOrders',
+        query_oco_order:      'v3/orderList ',
+        query_all_oco_orders: 'v3/allOrderList  ',
+        query_open_oco_orders: 'v3/openOrderList   ',
+
         account:          'v3/account',
         my_trades:        'v3/myTrades',
         user_data_stream: 'v1/userDataStream',

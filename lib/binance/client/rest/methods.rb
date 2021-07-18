@@ -44,18 +44,33 @@ module Binance
         # #create_order!
         { name: :create_order!, client: :signed,
           action: :post, endpoint: :order },
+            # #create_oco_order!
+        { name: :create_oco_order!, client: :signed,
+          action: :post, endpoint: :oco_order },
         # #create_test_order
         { name: :create_test_order, client: :signed,
           action: :post, endpoint: :test_order },
         # #query_order
         { name: :query_order, client: :signed,
           action: :get, endpoint: :order },
+        # #query_oco_order
+        { name: :query_oco_order, client: :signed,
+          action: :get, endpoint: :query_oco_order },
+        # #query_all_oco_orders
+        { name: :query_all_oco_orders, client: :signed,
+          action: :get, endpoint: :query_oco_order },
         # #cancel_order!
         { name: :cancel_order!, client: :signed,
           action: :delete, endpoint: :order },
+        # #cancel_oco_order!
+        { name: :cancel__oco_order!, client: :signed,
+          action: :delete, endpoint: :query_oco_order },
         # #open_orders
         { name: :open_orders, client: :signed,
           action: :get, endpoint: :open_orders },
+        # #open_oco_orders
+        { name: :open_oco_orders, client: :signed,
+          action: :get, endpoint: :query_open_oco_orders },
         # #all_orders
         { name: :all_orders, client: :signed,
           action: :get, endpoint: :all_orders },
